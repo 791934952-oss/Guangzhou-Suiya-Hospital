@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>广州穗雅医院精神科官网 - 预约咨询</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="contact">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">
+          <span class="brand-logo">穗</span>
+          <span>广州穗雅医院精神科官网</span>
+        </a>
+        <button class="menu-toggle" type="button">菜单</button>
+        <nav class="site-nav">
+          <a href="index.html" data-page="index">首页</a>
+          <a href="about.html" data-page="about">医院介绍</a>
+          <a href="services.html" data-page="services">诊疗服务</a>
+          <a href="doctors.html" data-page="doctors">医生团队</a>
+          <a href="articles.html" data-page="articles">科普文章</a>
+          <a href="contact.html" data-page="contact">预约咨询</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h1 class="section-title reveal">预约咨询</h1>
+        <p class="section-desc reveal">欢迎通过线上留言与电话方式预约就诊，我们将在工作时段内尽快联系您。</p>
+
+        <div class="contact-layout">
+          <section class="card reveal">
+            <h3>在线留言预约</h3>
+            <form id="appointmentForm">
+              <div class="field">
+                <label for="name">姓名</label>
+                <input id="name" name="name" type="text" required />
+              </div>
+              <div class="field">
+                <label for="phone">联系电话</label>
+                <input id="phone" name="phone" type="tel" required />
+              </div>
+              <div class="field">
+                <label for="type">咨询方向</label>
+                <select id="type" name="type">
+                  <option>焦虑情绪</option>
+                  <option>抑郁状态</option>
+                  <option>睡眠障碍</option>
+                  <option>心理压力</option>
+                  <option>其他问题</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="message">补充说明</label>
+                <textarea id="message" name="message" placeholder="请简要描述当前困扰（可选）"></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">提交预约</button>
+              <p class="success-msg">提交成功，我们将尽快与您联系。</p>
+            </form>
+          </section>
+
+          <section class="card reveal">
+            <h3>联系方式</h3>
+            <p><strong>医院地址：</strong>广东省广州市荔湾区黄沙大道 185 号</p>
+            <p><strong>客服电话：</strong>020-8888-1234</p>
+            <p><strong>在线咨询：</strong>工作时段内提供图文答疑</p>
+            <p><strong>工作时间：</strong>周一至周日 08:00 - 20:00</p>
+            <p class="notice">温馨提示：如出现急性风险或紧急情况，请及时联系急救服务或就近急诊。</p>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>广州穗雅医院精神科官网</span>
+        <span>预约便捷，沟通及时</span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
